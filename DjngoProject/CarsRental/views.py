@@ -9,5 +9,5 @@ def index_car_view(request: HttpRequest):
 
 # Create your views here.
 def index_car_view2(request: HttpRequest):
-    phrase="car rental is a helpful service that help people to find a car to use it in short peried of time"
+    phrase="<p style= 'color:white;  background-color: black;'>Car rentals are very popular today which means that rental agencies are all looking for ways to get your custom. To do this they are offering highly competitive prices and all good agencies will have a wide choice of cars. A good agency will recognize that everyone has their own car of preference and should try to provide cars that fit the needs of their customers.</p>"
     return HttpResponse(phrase)
