@@ -8,6 +8,6 @@ def get_info(requet:HttpRequest):
     return HttpResponse(body)
 
 def get_index(request:HttpRequest):
-    body = '''Car rental agencies primarily serve people who require a temporary vehicle, for example, those who do not own their own car, travelers who are out of town, or owners of damaged or destroyed vehicles who are awaiting repair or insurance compensation.'''
+    body = '''<h1>Car rental agencies primarily serve people who require a temporary vehicle</h1>,<h3> for example, those who do not own their own car, travelers who are out of town, or owners of damaged or destroyed vehicles who are awaiting repair or insurance compensation.</h3>'''
 
     return HttpResponse(body)
