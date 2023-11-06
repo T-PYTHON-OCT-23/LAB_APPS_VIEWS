@@ -6,6 +6,6 @@ app_name = "info"
 
 
 urlpatterns = [
-    path("info/", views.get_index, name="info"),
-    path("" , views.get_info, name="index" )
+    path("info/", views.get_info, name="info"),
+    path("" , views.get_index, name="index" )
 ]
