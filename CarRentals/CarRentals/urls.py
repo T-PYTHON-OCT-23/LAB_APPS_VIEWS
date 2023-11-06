@@ -24,3 +24,8 @@ urlpatterns = [
     path("admin/", admin.site.urls),
     path('', include("cars.urls")),
 ]
+
+urlpatterns = [
+    path("admin/", admin.site.urls),
+    path('', include("CARS.urls")),
+]
