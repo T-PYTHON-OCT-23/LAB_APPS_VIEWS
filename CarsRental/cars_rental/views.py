@@ -8,4 +8,4 @@ def home(request : HttpRequest):
 
 
 def about (request : HttpRequest):
-    return 
+    return  render(request, 'cars_rental/about.html')
