@@ -1,12 +1,12 @@
 from django.shortcuts import render
-from django.http import HttpRequest,HttpResponse
+from django.http import HttpRequest
 
 # Create your views here.
 
 def index(request:HttpRequest):
-    content ='<h1>Hello World, This is my new HOME for Car Rentals Website  ! we are excited to welcome you here.</h1>'
-    return HttpResponse(content)
+    
+    return render(request,'cars/index.html')
 
 def info(request:HttpRequest):
-    content = '<h1>A simple paragraph about Car Rentals.</h1>'
-    return HttpResponse(content)
+    
+    return render(request,'cars/info.html')
