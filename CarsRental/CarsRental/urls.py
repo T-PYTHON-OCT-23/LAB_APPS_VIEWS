@@ -21,8 +21,7 @@ from cars_rental import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path("", include("cars_rental.urls")),
-    path("about", include("about.urls")),
+    path(" ", include("cars_rental.urls")),
 
 
 ]

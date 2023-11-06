@@ -5,5 +5,6 @@ cars_rental="cars_rental"
 
 urlpatterns = [
     path("",views.home, name="home"),
+    path("",views.about, name="about"),
 
 ]
